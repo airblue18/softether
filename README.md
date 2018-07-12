@@ -15,13 +15,19 @@ Download installer.sh using wget or transfer to your root directory using ftp<br
 ```yum install wget -y && wget https://raw.githubusercontent.com/airblue18/softether/master/Centos/installer.sh && chmod +x installer.sh && ./installer.sh ```<br /><br /><br />
 
 
-<b>For debian</b> (copy all the codes below and paste on your terminal)<br /><br />
+<b>For debian64</b> (copy all the codes below and paste on your terminal)<br /><br />
 
 #Commands
 ```
 wget https://raw.githubusercontent.com/airblue18/softether/master/Debian/installer.sh && chmod +x installer.sh && ./installer.sh
 ```
 
+<b>For debian32</b> (copy all the codes below and paste on your terminal)<br /><br />
+
+#Commands
+```
+wget https://raw.githubusercontent.com/airblue18/softether/master/Debian32/installer.sh && chmod +x installer.sh && ./installer.sh
+```
 <b>For Ubuntu</b> (copy all the codes below and paste on your terminal)<br /><br />
 
 #Commands
