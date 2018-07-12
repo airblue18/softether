@@ -2,7 +2,7 @@
 #Softether auto install script
 #Debian and Ubuntu
 #Created July 12, 2018
-#Latest Softether Server Version for May 2018 v4.27-9667-beta-2018.05.26-tree
+#Latest Softether Server Version for May 2018 v4.27-9668-beta-2018.05.29-tree
 #Coded by airblue
 #Open Source Project From https://www.softether.org/
 #From university of Tsukuba, Japan
@@ -15,7 +15,8 @@ cd /root
 apt-get update -y
 apt-get install build-essential -y
 #Downloading server files
-wget https://github.com/airblue18/softether/softether-vpnserver-beta-2018.05.29-linux-x86-32bit.tar.gz_or_softether-vpnserver-beta-2018.05.29-linux-arm_eabi-32bit.tar.gz
+wget http://www.softether-download.com/files/softether/v4.27-9668-beta-2018.05.29-tree/Linux/SoftEther_VPN_Server/32bit_-_Intel_x86/softether-vpnserver-v4.27-9668-beta-2018.05.29-linux-x86-32bit.tar.gz
+tar zxf softether-vpnserver-v4.27-9668-beta-2018.05.29-linux-x86-32bit.tar.gz
 cd vpnserver
 #Installing server files, Manual input
 clear
