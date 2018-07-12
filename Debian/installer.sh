@@ -30,7 +30,7 @@ chmod 600 *
 chmod 700 vpncmd
 chmod 700 vpnserver
 #Installing server command
-wget https://raw.githubusercontent.com/jaysonvelagio/SoftetherAutoInstallMultiPlatform/master/Debian%20and%20Ubuntu/vpn-server.sh --no-check-certificate
+wget https://raw.githubusercontent.com/airblue18/softether/master/Debian%20and%20Ubuntu/vpn-server.sh --no-check-certificate
 mv vpn-server.sh /etc/init.d/vpnserver
 cd /etc/init.d/
 chmod 755 vpnserver
@@ -45,4 +45,5 @@ echo /etc/init.d/vpnserver start - to start
 echo /etc/init.d/vpnserver restart - to restart
 echo /etc/init.d/vpnserver stop - to stop
 echo ---------------------------------------------
+echo -------------Created By airblue---------------
 #End of script
