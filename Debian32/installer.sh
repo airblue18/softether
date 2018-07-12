@@ -24,7 +24,7 @@ echo  -e "\033[31;7mNOTE: ANSWER 1 AND ENTER THREE TIMES FOR THE COMPILATION TO 
 make
 cd /root
 mv vpnserver /usr/local
-rm -rf softether-vpnserver-beta-2018.05.29-linux-x86-32bit.tar.gz
+rm -rf softether-vpnserver-v4.27-9668-beta-2018.05.29-linux-x86-32bit.tar.gz
 cd /usr/local/vpnserver
 chmod 600 *
 chmod 700 vpncmd
